@@ -1,3 +1,9 @@
+#NAME:李似巾<BR>
+#SID:C113181180<BR>
+#EX03
+<HR>
+
+
 <?php
 $result = 0;
 $n = 0;
