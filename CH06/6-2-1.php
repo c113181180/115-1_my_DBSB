@@ -3,7 +3,7 @@ function printHeader()
 {
     echo "<h3>SID:C113181180</h3>";
     echo "<h3>Name:李似巾</h3>";
-    echo "<h3>PHP and MySQL PageDesign</h3>";
+    echo "<h3>EX01</h3>";;
 }
 function printFooter()
 {
