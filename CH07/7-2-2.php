@@ -8,15 +8,15 @@ echo "<HR>";
 
 <?php
 $arr = array(
-             "Color"=>"Black",
-             "name"=>"李似巾",
-             "Shape"=>"Triangle",
-            100
-            );
+    "Color"=>"Black",
+    "name"=>"李似巾",
+    "Shape"=>"Triangle",
+    100
+);
 $arr["type"] = "PHP";
 unset($arr["type"]);
 
-foreach( $arr as $key => $value ) {
+foreach( $arr as $key => $value ){
     echo "$key => $value ";
 }
 echo "<br/>";
