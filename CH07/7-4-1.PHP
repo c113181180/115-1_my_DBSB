@@ -1,0 +1,25 @@
+<?php
+echo "<HR>";
+echo "SID: C113181180<br/>";
+echo "Name: 李似巾<br/>";
+ echo "<h3>EX01</h3>";
+echo "<HR>";
+?>
+
+<?php
+$str1 = "PHP and MySQL Web Programming"; // 字串變數
+$str2 = " PHP與MySQL網頁設計範例教本 ";
+
+echo "測試英文字串1: " . $str1 . "\"<br/>";
+echo "測試英文字串2: " . $str1 . "\"<br/>";
+
+echo "English string  length: " . strlen($str1) . "<br/>";
+echo "Chinese string  length:"  . strlen($str2) . "<br/>";
+
+echo "Lower Case: " . strtolower($str1) . "<br/>";
+echo "Upper Case: " . strtolower($str1) . "<br/>";
+
+echo "Remove whitespace from both ends:   \"" . trim($str2) . "\"<br/>";
+echo "Remove whitespace from both start: \"" . trim($str2) . "\"<br/>";
+echo "Remove whitespace from both end: \"" . trim($str2) . "\"<br/>";
+echo "Remove whitespace from both end: \"" . trim($str2) . "\"<br/>";
