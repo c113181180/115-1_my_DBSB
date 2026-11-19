@@ -1,0 +1,10 @@
+<?php
+$file = basename($_SERVER["PHP_SELF"], ".php");
+
+$fp = fopen($file.".php", "r")
+      OR exit("File $file.php open error<br/>");
+
+      echo"file:$file.php open successful <br/>";
+      echo"filesize:".filesize($file.".php")."<br/>";
+      fclose($fp);
+      echo"file:$file.php has been closed<br/>";
